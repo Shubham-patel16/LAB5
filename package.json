@@ -8,7 +8,7 @@
   "description": "bootstrap and sass",
   "main": "index.js",
   "scripts": {
-    "sass-build": "sass --no-source-map scss:css"
+    "sass-build": "sass --watch scss:css"
   },
   "repository": {
     "type": "git",
