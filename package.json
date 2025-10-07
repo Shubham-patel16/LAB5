@@ -1,5 +1,23 @@
 {
   "dependencies": {
-    "bootstrap": "^5.3.8"
-  }
+    "bootstrap": "^5.3.8",
+    "sass": "^1.93.2"
+  },
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "bootstrap and sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubham-patel16/LAB5.git"
+  },
+  "author": "shubham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shubham-patel16/LAB5/issues"
+  },
+  "homepage": "https://github.com/Shubham-patel16/LAB5#readme"
 }
