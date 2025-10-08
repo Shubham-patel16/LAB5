@@ -3,6 +3,57 @@ body {
   background-color: rgb(159, 55, 55);
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+.light-mode .animal-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.light-mode .nav-link.active {
+  background-color: blue;
+  color: #fff !important;
+}
+
+.dark-mode {
+  background-color: #1c1f24;
+  color: #fff;
+}
+.dark-mode .animal-card {
+  background-color: #2a2e34;
+  border: 1px solid #444;
+}
+.dark-mode .nav-link.active {
+  background-color: blue;
+  color: #fff !important;
+}
+
+.animal-card {
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+.animal-card .animal-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.theme-toggle .btn {
+  border-radius: 5px;
+  font-weight: 500;
+}
+.theme-toggle .btn.active {
+  background-color: #6c757d;
+  color: white;
+}
+
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors

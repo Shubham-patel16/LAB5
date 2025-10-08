@@ -2,4 +2,64 @@ $primary: rgb(159, 55, 55);
 body {
   background-color: $primary;
 }
+body {
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #000;
+
+  .animal-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+
+  .nav-link.active {
+    background-color: blue;
+    color: #fff !important;
+  }
+}
+
+.dark-mode {
+  background-color: #1c1f24;
+  color: #fff;
+
+  .animal-card {
+    background-color: #2a2e34;
+    border: 1px solid #444;
+  }
+
+  .nav-link.active {
+    background-color: blue;
+    color: #fff !important;
+  }
+}
+
+.animal-card {
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+
+  // &:hover {
+  //   transform: translateY(-5px);
+  // }
+
+  .animal-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+.theme-toggle .btn {
+  border-radius: 5px;
+  font-weight: 500;
+
+  &.active {
+    background-color: #6c757d;
+    color: white;
+  }
+}
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
